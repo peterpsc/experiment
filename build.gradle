@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+tasks.eclipse.dependsOn tasks.cleanEclipse
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	//compile fileDir('lib')
+	//testCompile 'junit:junit:4.12'
+	//runtime
+	//testCompile
+}
