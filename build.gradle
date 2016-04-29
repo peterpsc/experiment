@@ -8,8 +8,6 @@ repositories{
 }
 
 dependencies{
-	//compile fileDir('lib')
-	//testCompile 'junit:junit:4.12'
-	//runtime
-	//testCompile
+	compile files('/usr/share/java/hsqldb-2.2.9+dfsg.jar')
+	compile 'junit:junit:4.12'
 }
