@@ -1,0 +1,2 @@
+#!/bin/bash
+alias squirrel='java -jar /usr/share/java/squirrel-sql-snapshot-20160309_2124-standard.jar'
